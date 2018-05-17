@@ -1,0 +1,10 @@
+
+Contains the four script files mentioned in the paper
+
+    Effective Bounds for Singular Units     
+    by Yuri Bilu, Philipp Habegger, Lars Kuehne 
+
+algorithm1.c
+algorithm2.gp
+lemma6_4.gp
+prop6_2.sage
