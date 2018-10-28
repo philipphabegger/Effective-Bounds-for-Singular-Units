@@ -164,7 +164,7 @@ int count_tau(unsigned char *counter, long long int minX, long long int len) {
 
 
 int main(void) {
-  long long int n,loops,max,count,globalcount;
+  long long int n,loops,count,globalcount;
   unsigned char *counter;
   clock_t t1,t2;
 

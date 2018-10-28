@@ -22,11 +22,13 @@
 
 get_log_norm(Delta) = 
 {
-    local(a,b,c,clno,flag,CDelta,X,maxa,sqrtX,jnorm);
+    local(a,b,c,clno,X,m,maxa,sqrtXdiva,jnorm,y);
     
     clno = 0;
 
     X = abs(Delta);
+
+    m = 42700*min(2/(5*X),1/250)^3;
     
     jnorm = 1;
     
@@ -70,8 +72,6 @@ get_log_norm(Delta) =
 	    
 	    clno = clno + 1;
 			
-	    m = 42700*min(2/(5*X),1/250)^3;
-
 	    jnorm = jnorm * max(m,y);		 
 	);
     );
@@ -89,7 +89,7 @@ get_log_norm(Delta) =
 
 
 find_small_norm(B) = {
-    local(X);
+    local(X,Delta);
     gettime();
     for(X=4,B,
 	if(X%10000==0,print("Reached ",X));
