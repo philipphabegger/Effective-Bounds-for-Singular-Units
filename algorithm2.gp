@@ -1,5 +1,5 @@
 /*
-    Effective Bounds for Singular Units     
+    No singular modulus is a unit
     Yuri Bilu, Philipp Habegger, Lars Kuehne 
 
     PARI code to verify computations in Proposition 8.1 Implements

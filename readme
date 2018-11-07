@@ -1,7 +1,7 @@
 
 Contains the four script files mentioned in the paper
 
-    Effective Bounds for Singular Units     
+    No singular modulus is a unit
     by Yuri Bilu, Philipp Habegger, Lars Kuehne 
 
 algorithm1.c

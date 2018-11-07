@@ -1,5 +1,5 @@
 /*
-    Effective Bounds for Singular Units     
+    No singular modulus is a unit
     Yuri Bilu, Philipp Habegger, Lars Kuehne 
 
     C code to verify computations in Lemma 7.2.

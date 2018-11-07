@@ -1,4 +1,4 @@
-### Effective Bounds for Singular Units     
+### No singular modulus is a unit
 ### Yuri Bilu, Philipp Habegger, Lars Kuehne 
 
 ### Sage code to verify computations in Proposition 6.2

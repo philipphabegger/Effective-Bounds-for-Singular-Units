@@ -1,5 +1,5 @@
-/*
-    Effective Bounds for Singular Units     
+/* 
+    No singular modulus is a unit	
     Yuri Bilu, Philipp Habegger, Lars Kuehne 
 
     PARI code to verify claims of Lemma 6.4.
