@@ -35,7 +35,7 @@ get_log_norm(Delta) =
     maxa = floor(sqrt(X/3));
 
     /* Make sure that maxa = floor(sqrt(X/3)) */
-    if(maxa^2 > X/3 && (maxa+1)^2 <= X/3,
+    if(maxa^2 > X/3 || (maxa+1)^2 <= X/3,
         print("FAIL (Rounding error)");
 	return(0);
     );
